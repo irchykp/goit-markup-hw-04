@@ -147,6 +147,11 @@ img {
     fill: currentColor;
 }
 
+.contacts .icon-mail:hover,
+.contacts .icon-mail:focus {
+    fill: var(--accent-color);
+}
+
 .navigation .link:hover,
 .contacts .link:hover,
 .navigation .link:focus,
