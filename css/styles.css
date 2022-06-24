@@ -17,6 +17,8 @@
     --accent-background: #2196f3;
     --title-weight: 700;
     --list-gap: 30px;
+    --icon-fill-primary: #afb1b8;
+    --icon-fill-secondary: #ffffff;
 }
 
 body {
@@ -145,11 +147,6 @@ img {
 .contacts .icon-phone {
     margin-right: 10px;
     fill: currentColor;
-}
-
-.link:hover .icon-mail,
-.link:focus .icon-mail {
-    fill: Red;
 }
 
 .navigation .link:hover,
@@ -307,6 +304,25 @@ img {
 
 .team-profession {
     margin-bottom: 30px;
+}
+
+.team .social-networks {
+    display: flex;
+    justify-content: center;
+}
+
+.team .social-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: var(--icon-fill-primary);
+}
+
+.team .social-link {
+    fill: currentColor;
 }
 
 .logo-contacts {
