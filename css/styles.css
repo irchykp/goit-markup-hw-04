@@ -321,7 +321,7 @@ img {
     color: var(--icon-fill-primary);
 }
 
-.team .social-link {
+.icon-social {
     fill: currentColor;
 }
 
