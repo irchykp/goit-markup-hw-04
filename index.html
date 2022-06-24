@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!--Навігація з логотипом і контактна інформація-->
+    <header class="logo-nav">
+        <div class="container ">
+            <nav class="main-nav">
+                <a class="logo link" href="#"><span class="logo-accent">Web</span>Studio</a>
+                <ul class=" navigation list">
+                    <li class="navigation-item">
+                        <a class="link current" href="#">Студия</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="contacts list">
+                <li class="contacts-item">
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="contacts-item">
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--Герой-->
+    <main>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero-order" type="button">Заказать услугу</button>
+        </section>
+
+        <!--Переваги студії-->
+
+        <section class="preference">
+            <div class="container">
+                <h2 hidden>Преимущества студии</h2>
+
+                <ul class="list">
+                    <li class="preference-item">
+                        <h3 class="preference-title">Внимание к деталям</h3>
+                        <p class="preference-content">Идейные соображения, а также начало повседневной работы по
+                            формированию позиции.</p>
+                    </li>
+
+                    <li class="preference-item">
+                        <h3 class="preference-title">Пунктуальность</h3>
+                        <p class="preference-content">Задача организации, в особенности же рамки и место обучения кадров
+                            влечет за собой.</p>
+                    </li>
+
+                    <li class="preference-item">
+                        <h3 class="preference-title">Планирование</h3>
+                        <p class="preference-content">Равным образом консультация с широким активом в значительной
+                            степени обуславливает.</p>
+                    </li>
+
+                    <li class="preference-item">
+                        <h3 class="preference-title">Современные технологии</h3>
+                        <p class="preference-content">Значимость этих проблем настолько очевидна, что реализация
+                            плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!--Приклади робіт-->
+
+        <section class="examples">
+            <div class="container">
+                <h2 class="examples-title">Чем мы занимаемся</h2>
+
+                <ul class=" list">
+                    <li class="examples-item">
+                        <img src="./images/coding.jpg" alt="Розробка проекту відповідно до схеми" width="370">
+                    </li>
+
+                    <li class="examples-item">
+                        <img src="./images/theme.jpg" alt="Вибір теми на лептопі з допомогою смартфону" width="370">
+                    </li>
+
+                    <li class="examples-item">
+                        <img src="./images/design.jpg" alt="Підбір кольору на планшеті" width="370">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!--Команда-->
+
+        <section class="team">
+            <div class="container">
+                <h2 class="team-title">Наша команда</h2>
+
+                <ul class="list">
+                    <li class="team-item">
+                        <img class="photo" src="./images/product-designer.jpg"
+                            alt="Чоловік в бордовій сорочці в окулярах і акуратною бородою" width="270">
+                        <h3 class="team-member">Игорь Демьяненко</h3>
+                        <p class="team-profession">Product Designer</p>
+                    </li>
+
+                    <li class="team-item">
+                        <img class="photo" src="./images/frontend.jpg"
+                            alt="Жінка з білявим волоссям в темному піджаку в окулярах" width="270">
+                        <h3 class="team-member">Ольга Репина</h3>
+                        <p class="team-profession">Frontend Developer</p>
+                    </li>
+
+                    <li class="team-item">
+                        <img class="photo" src="./images/marketing.jpg" alt="Усміхнений чоловік в голубій сорочці"
+                            width="270">
+                        <h3 class="team-member">Николай Тарасов</h3>
+                        <p class="team-profession">Marketing</p>
+                    </li>
+
+                    <li class="team-item">
+                        <img class="photo" src="./images/ui.jpg" alt="Чоловік в темній футболці і окулярах" width="270">
+                        <h3 class="team-member">Михаил Ермаков</h3>
+                        <p class="team-profession">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!--Логотип з адресою-->
+    <footer class="logo-contacts">
+        <div class="container">
+            <a class="logo link" href="#"><span class="logo-accent">Web</span>Studio</a>
+
+            <address class="contact-info">
+                <ul class="list">
+                    <li class="contact-info-item"><a class="link" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="contact-info-item"><a class="link" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="contact-info-item"><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                </ul>
+
+            </address>
+        </div>
+    </footer>
+
+</body>
+
+</html>
