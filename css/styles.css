@@ -267,7 +267,8 @@ img {
 }
 
 .examples-title,
-.team-title {
+.team-title,
+.customers-title {
     margin-bottom: 50px;
     font-weight: var(--title-weight);
     font-size: 36px;
@@ -317,7 +318,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 50%;
     color: var(--icon-fill-primary);
 }
 
