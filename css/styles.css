@@ -170,8 +170,8 @@ img {
     height: 600px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #2f303a;
-    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hero.jpg);
+    background-color: #c4c4c4;
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -244,7 +244,7 @@ img {
     align-items: center;
     width: 270px;
     height: 120px;
-    background-color: var(--primary-background);
+    background-color: var(--background-section);
     border-radius: 4px;
     margin-bottom: 30px;
 }
@@ -289,7 +289,6 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--primary-background);
-    padding-bottom: 36px;
 }
 
 .team .team-item:not(:last-child) {
@@ -309,7 +308,7 @@ img {
 }
 
 .team-profession {
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .team .social-networks,
@@ -318,6 +317,7 @@ img {
     justify-content: center;
     max-width: 206px;
     margin: 0 32px;
+    margin-bottom: 30px;
 }
 
 .social-networks-item {
@@ -360,7 +360,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px 32px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
     color: var(--icon-fill-primary);
@@ -514,6 +513,7 @@ img {
 .projects .project-title {
     font-weight: var(--title-weight);
     font-size: 18px;
+    letter-spacing: 0.06em;
     line-height: 2;
     color: var(--title-color);
     margin-bottom: 4px;
